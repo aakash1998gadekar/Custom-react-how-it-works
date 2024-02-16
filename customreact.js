@@ -20,6 +20,10 @@ function customRender(reactElement,container){
     container.appendChild(domElement)
 }
 
+//setting up anchor tag
+//how react resolve anchor tag ad sets its values
+//HOW ALL THESE THINGS WORKS IN REACT BEHIND THE SCENE
+//REACT.CREATEELMENT IS GIVEN BY REACT TO CREATE ELEMENTS IN REACT
 const reactElement = {
     type: 'a',
     props:{
